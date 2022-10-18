@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply pl-4
+  }
+
+  button {
+    @apply bg-indigo-600 text-white rounded hover:bg-transparent duration-500
+  }
+}
